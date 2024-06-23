@@ -30,8 +30,8 @@
     <td>{{ user.note }}</td>
     <td>{{ user.department_id }}</td>
     <td>
-      <!-- <a type="button" class="btn btn-primary" [routerLink]="['/updateDoctor/', user.id]" >Updat</a>
-      &nbsp; -->
+      <a type="button" class="btn btn-primary" [routerLink]="['/updateDoctor/', user.id]" >Updat</a>
+      &nbsp;
       <button type="button" class="btn btn-danger" (click)="delete(user.id)">Delet</button>
       &nbsp;
       <button type="button" class="btn btn-outline-info" (click)="delete(user.id)">Detils</button>

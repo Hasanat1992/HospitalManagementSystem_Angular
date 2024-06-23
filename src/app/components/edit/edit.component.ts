@@ -35,7 +35,7 @@ export class EditComponent implements OnInit {
 
   onSubmit() {
     this.apiService.updateData(this.userForm.value).subscribe((res: any) => {
-      this.router.navigateByUrl('/nurse');
+      this.router.navigateByUrl('/doctors');
     })
   }
 

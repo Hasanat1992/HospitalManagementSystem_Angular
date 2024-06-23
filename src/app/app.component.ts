@@ -9,7 +9,7 @@ import { RestApiService } from './service/rest-api.service';
 })
 export class AppComponent implements OnInit {
   title = 'my-app';
-  name = "Saiful";
+  name = "Hasanat";
   Country = "Bangladesh";
   Salary = 10000000;
   active: number = 5;
